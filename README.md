@@ -62,4 +62,11 @@ From this analysis, we can tell that the best time to be a taxi driver is Monday
 
 If a driver only has 10 hours a week he can drive, he should focus on being in midtown manhattan between 6PM and 11PM Sundays and Mondays as a VTS driver.
 
-There is a lot more work that can go into this to verify, validate, and optimize things, but this is a good place to start for now. 
+There is a lot more work that can go into this to verify, validate, and optimize things, but this is a good place to start for now. If I had time, I would look into creating a model to predict demand in an area over time, and how to chain fares together over time in order to minimize the total time without a passenger in the cab, but there was not enough time for that at this time.
+
+
+### Additional Data I would like
+
+While working on this problem, I attempted to bring in the address information related to the GPS coordinates, but ran into issues with the API timing out. Ideally, I would have this information in order to more accurately predict where to go for new fares.
+
+In addition, I would like to see temperature data, weather information (raining, snowing, dry, etc.), and major event information (i.e. major conferences, new broadway shows, etc.) in the area in order to better predict where to be and when.
